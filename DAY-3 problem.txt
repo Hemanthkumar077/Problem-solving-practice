@@ -1,0 +1,9 @@
+# Amstrong Number
+num = 371
+count = len(str(num))
+result = 0
+for i in str(num) :
+    result += (int(i) ** count)
+if num == result :
+    print("Amstrong Number")
+    
